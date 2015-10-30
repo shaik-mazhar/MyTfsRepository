@@ -15,14 +15,14 @@ namespace MyFirstGitApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "My application description page.";
+            ViewBag.Message = "Fetch application description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "My contact page.";
+            ViewBag.Message = "Fetch contact page.";
 
             return View();
         }
